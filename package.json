@@ -1,0 +1,36 @@
+{
+	"name": "bugslayer-theme",
+	"displayName": "BugSlayer Theme",
+	"description": "Try this theme if others don't meet your needs",
+	"version": "0.0.1",
+	"publisher": "BugSlayer",
+	"icon": "images/logo.png",
+	"engines": {
+		"vscode": "^1.69.2"
+	},
+	"categories": [
+		"Themes"
+	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/Bugs-Slayer/bugslayer-theme.git"
+	},
+	"bugs": {
+		"url": "https://github.com/Bugs-Slayer/bugslayer-theme/issues"
+	},
+	"keywords": [
+		"bugslayer",
+		"dark",
+		"theme",
+		"color-theme"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "BugSlayer Theme",
+				"path": "./themes/BugSlayer-theme.json",
+				"uiTheme": "vs-dark"
+			}
+		]
+	}
+}
